@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ProductCard = ({ image, title, price, onAddToCart }: any) => {
   return (
-    <div className="flex flex-col space-y-2">
+    <div className="flex flex-col space-y-2 mb-4">
       <div className="relative overflow-hidden group aspect-[4/3] w-full">
         <Image
           src={image}
